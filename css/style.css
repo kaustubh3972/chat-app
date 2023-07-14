@@ -1,0 +1,110 @@
+body {
+	background-image: linear-gradient(rgb(10 9 8), rgb(202, 166, 5));
+	height: 97vh;
+	color: white;
+}
+/* nav {
+	text-align: center;
+	align-items: center;
+	display: flex;
+} */
+.logo {
+	display: block;
+	margin: auto;
+	height: 70px;
+}
+/* h1.logo {
+	color: white;
+	font-size: 35px;
+} */
+#welcome {
+	color: white;
+	margin: 10px;
+	text-align: center;
+	display: block;
+	font-size: 35px;
+	justify-content: center;
+}
+.container {
+	max-width: 730px;
+	/* background-image: linear-gradient(rgb(39, 33, 26), rgb(202, 166, 5)); */
+	/* background-color: aqua; */
+	margin: auto;
+	height: 65vh;
+	border: 2px solid black;
+	overflow-y: auto;
+	scroll-behavior: auto;
+	overflow-anchor: none;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+.message {
+	background-color: #ffaf54;
+	position: relative;
+	bottom: 0px;
+	color: black;
+	width: auto;
+	margin: 10px 20px;
+	padding: 15px 15px;
+	font-size: 1.5rem;
+	border-radius: 10px;
+	border: 2px solid black;
+	overflow-anchor: auto;
+}
+.notify {
+	overflow-anchor: auto;
+	background-color: #e8c8a0;
+	position: relative;
+	color: black;
+	width: auto;
+	/* margin: 5px 5px; */
+	padding: 5px;
+	font-size: 1rem;
+	border-radius: 5px;
+	width: 150px;
+	/* border: 1px solid black; */
+	text-align: center;
+	text-decoration: underline;
+}
+.left {
+	float: left;
+	clear: both;
+}
+.right {
+	float: right;
+	clear: both;
+}
+.mid {
+	float: none;
+	clear: both;
+	margin: 5px auto;
+}
+#send-container {
+	text-align: center;
+	margin: auto;
+	display: flex;
+	/* width: 80%; */
+	justify-content: center;
+	max-width: 900px;
+	align-items: center;
+}
+i {
+	font-size: 20px;
+}
+#msgInp {
+	width: 65%;
+	border: 2px solid black;
+	border-radius: 22px;
+	height: 35px;
+	margin: 0px 1%;
+	font-size: 18px;
+	padding: 0px 15px;
+}
+.btn {
+	width: auto;
+	font-size: 1.3rem;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	border-radius: 20px;
+}

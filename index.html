@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MyChat App</title>
+		<!-- <script
+			src="https://cdn.socket.io/4.6.0/socket.io.min.js"
+			integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
+			crossorigin="anonymous"
+		></script> -->
+		<!-- <script src="/socket.io/socket.io.js" type="text/html"></script>
+		<script>
+			const socket = io();
+		</script> -->
+		<script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+		<!-- <script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script> -->
+		<script defer src="/js/client.js"></script>
+		<link rel="stylesheet" href="/css/style.css" />
+		<script
+			src="https://kit.fontawesome.com/39e1721260.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<nav>
+			<img class="logo" src="/icon.png" alt="MyChat Clone Logo" />
+			<!-- <h1 id="logo">MyChat</h1> -->
+			<h1 id="welcome">Welcome to MyChat App</h1>
+		</nav>
+		<div class="container">
+			<div class="notify mid">Let the fun begin</div>
+			<div class="message left">Hi!! How r u?</div>
+			<div class="message right">Hello!! I'm fine, & u?</div>
+		</div>
+		<div class="send">
+			<form action="#" id="send-container">
+				<i class="fa fa-smile-o"></i>
+				<input
+					type="text"
+					name="msgInp"
+					id="msgInp"
+					placeholder="Enter your message..."
+				/>
+				<button class="btn" type="submit">Send</button>
+			</form>
+		</div>
+	</body>
+</html>
