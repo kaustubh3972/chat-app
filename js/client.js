@@ -1,5 +1,6 @@
 // const socket = io("http://localhost:7000", { tranports: ["websocket"] });
-const socket = io("http://localhost:8000");
+// const socket = io("http://localhost:8000");
+const socket = io("https://mychatappbyk.netlify.app/");
 // const io = require("socket.io-client");
 // socket = io();
 console.log("hi client");
