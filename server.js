@@ -5,13 +5,9 @@
 // });
 // const io = require("socket.io");
 const { Server } = require("socket.io");
-// const io = new Server(8000, {
-// 	/* options */
-// });
-var io = require('socket.io-emitter')();
-setInterval(function(){
-  io.emit('time', new Date);
-}, 5000);
+const io = new Server(8000, {
+	/* options */
+});
 const users = {};
 io.on("connection", (socket) => {
 	socket.on("new-user-joined", (username) => {
